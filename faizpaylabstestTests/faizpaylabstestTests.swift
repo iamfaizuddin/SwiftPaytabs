@@ -2,8 +2,8 @@
 //  faizpaylabstestTests.swift
 //  faizpaylabstestTests
 //
-//  Created by Personal on 20/06/20.
-//  Copyright © 2020 Personal. All rights reserved.
+//  Created by Faiz on 20/06/20.
+//  Copyright © 2020 Faiz. All rights reserved.
 //
 
 import XCTest

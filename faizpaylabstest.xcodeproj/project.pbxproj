@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,10 @@
 		6090523B249E5A0D00907CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60905239249E5A0D00907CE4 /* LaunchScreen.storyboard */; };
 		60905246249E5A0D00907CE4 /* faizpaylabstestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60905245249E5A0D00907CE4 /* faizpaylabstestTests.swift */; };
 		60905251249E5A0D00907CE4 /* faizpaylabstestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60905250249E5A0D00907CE4 /* faizpaylabstestUITests.swift */; };
+		6090527A249E65B800907CE4 /* paytabs-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60905278249E65B700907CE4 /* paytabs-iOS.framework */; };
+		6090527B249E65B800907CE4 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 60905279249E65B700907CE4 /* Resources.bundle */; };
+		6090527E249E68F500907CE4 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6090527D249E68F500907CE4 /* ResultController.swift */; };
+		DB6C427C9254D007FCB37996 /* libPods-faizpaylabstest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0E2382DCE92BE04519DF42 /* libPods-faizpaylabstest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57A44A2E94E87D702275D9F5 /* Pods-faizpaylabstest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faizpaylabstest.debug.xcconfig"; path = "Target Support Files/Pods-faizpaylabstest/Pods-faizpaylabstest.debug.xcconfig"; sourceTree = "<group>"; };
 		6090522B249E5A0C00907CE4 /* faizpaylabstest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faizpaylabstest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6090522E249E5A0C00907CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60905230249E5A0C00907CE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,12 @@
 		6090524C249E5A0D00907CE4 /* faizpaylabstestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faizpaylabstestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60905250249E5A0D00907CE4 /* faizpaylabstestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faizpaylabstestUITests.swift; sourceTree = "<group>"; };
 		60905252249E5A0D00907CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60905273249E626600907CE4 /* faizpaylabstest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "faizpaylabstest-Bridging-Header.h"; sourceTree = "<group>"; };
+		60905278249E65B700907CE4 /* paytabs-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "paytabs-iOS.framework"; sourceTree = "<group>"; };
+		60905279249E65B700907CE4 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		6090527D249E68F500907CE4 /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		7C0E2382DCE92BE04519DF42 /* libPods-faizpaylabstest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-faizpaylabstest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCD89FA5253AE7F0CFB2060 /* Pods-faizpaylabstest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faizpaylabstest.release.xcconfig"; path = "Target Support Files/Pods-faizpaylabstest/Pods-faizpaylabstest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6C427C9254D007FCB37996 /* libPods-faizpaylabstest.a in Frameworks */,
+				6090527A249E65B800907CE4 /* paytabs-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,8 @@
 				60905244249E5A0D00907CE4 /* faizpaylabstestTests */,
 				6090524F249E5A0D00907CE4 /* faizpaylabstestUITests */,
 				6090522C249E5A0C00907CE4 /* Products */,
+				C76F8AECB50844C171952DE6 /* Pods */,
+				F42695A7F35ACAB63D83EA34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +114,12 @@
 		6090522D249E5A0C00907CE4 /* faizpaylabstest */ = {
 			isa = PBXGroup;
 			children = (
-				6090522E249E5A0C00907CE4 /* AppDelegate.swift */,
-				60905230249E5A0C00907CE4 /* SceneDelegate.swift */,
-				60905232249E5A0C00907CE4 /* ViewController.swift */,
-				60905234249E5A0C00907CE4 /* Main.storyboard */,
+				60905281249E6C6600907CE4 /* Libraries */,
+				60905280249E6BED00907CE4 /* Views */,
+				6090527F249E6BDD00907CE4 /* AppDelegate */,
+				6090527C249E68C100907CE4 /* Controllers */,
+				60905272249E621C00907CE4 /* Header */,
 				60905237249E5A0D00907CE4 /* Assets.xcassets */,
-				60905239249E5A0D00907CE4 /* LaunchScreen.storyboard */,
 				6090523C249E5A0D00907CE4 /* Info.plist */,
 			);
 			path = faizpaylabstest;
@@ -128,6 +143,67 @@
 			path = faizpaylabstestUITests;
 			sourceTree = "<group>";
 		};
+		60905272249E621C00907CE4 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				60905273249E626600907CE4 /* faizpaylabstest-Bridging-Header.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		6090527C249E68C100907CE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				60905232249E5A0C00907CE4 /* ViewController.swift */,
+				6090527D249E68F500907CE4 /* ResultController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6090527F249E6BDD00907CE4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6090522E249E5A0C00907CE4 /* AppDelegate.swift */,
+				60905230249E5A0C00907CE4 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		60905280249E6BED00907CE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60905234249E5A0C00907CE4 /* Main.storyboard */,
+				60905239249E5A0D00907CE4 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60905281249E6C6600907CE4 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				60905278249E65B700907CE4 /* paytabs-iOS.framework */,
+				60905279249E65B700907CE4 /* Resources.bundle */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		C76F8AECB50844C171952DE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57A44A2E94E87D702275D9F5 /* Pods-faizpaylabstest.debug.xcconfig */,
+				AFCD89FA5253AE7F0CFB2060 /* Pods-faizpaylabstest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F42695A7F35ACAB63D83EA34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C0E2382DCE92BE04519DF42 /* libPods-faizpaylabstest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60905255249E5A0D00907CE4 /* Build configuration list for PBXNativeTarget "faizpaylabstest" */;
 			buildPhases = (
+				65159B95EA2B50A387F6DFF2 /* [CP] Check Pods Manifest.lock */,
 				60905227249E5A0C00907CE4 /* Sources */,
 				60905228249E5A0C00907CE4 /* Frameworks */,
 				60905229249E5A0C00907CE4 /* Resources */,
+				A953E1B0AB0DF95076EFB64B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +313,7 @@
 				6090523B249E5A0D00907CE4 /* LaunchScreen.storyboard in Resources */,
 				60905238249E5A0D00907CE4 /* Assets.xcassets in Resources */,
 				60905236249E5A0C00907CE4 /* Main.storyboard in Resources */,
+				6090527B249E65B800907CE4 /* Resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,11 +333,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65159B95EA2B50A387F6DFF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-faizpaylabstest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A953E1B0AB0DF95076EFB64B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-faizpaylabstest/Pods-faizpaylabstest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-faizpaylabstest/Pods-faizpaylabstest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-faizpaylabstest/Pods-faizpaylabstest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60905227249E5A0C00907CE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6090527E249E68F500907CE4 /* ResultController.swift in Sources */,
 				60905233249E5A0C00907CE4 /* ViewController.swift in Sources */,
 				6090522F249E5A0C00907CE4 /* AppDelegate.swift in Sources */,
 				60905231249E5A0C00907CE4 /* SceneDelegate.swift in Sources */,
@@ -432,16 +554,53 @@
 		};
 		60905256249E5A0D00907CE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A44A2E94E87D702275D9F5 /* Pods-faizpaylabstest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC5393FMF8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/faizpaylabstest/Libraries",
+				);
 				INFOPLIST_FILE = faizpaylabstest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.faizpaylabstest;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"AFNetworking\"",
+					"-l\"ActionSheetPicker-3.0\"",
+					"-l\"BIObjCHelpers\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"Lockbox\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"Mantle\"",
+					"-l\"PINCache\"",
+					"-l\"Reachability\"",
+					"-l\"SBJson\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.faizpaylabstestswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/faizpaylabstest/Header/faizpaylabstest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,16 +608,53 @@
 		};
 		60905257249E5A0D00907CE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFCD89FA5253AE7F0CFB2060 /* Pods-faizpaylabstest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC5393FMF8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/faizpaylabstest/Libraries",
+				);
 				INFOPLIST_FILE = faizpaylabstest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.faizpaylabstest;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"AFNetworking\"",
+					"-l\"ActionSheetPicker-3.0\"",
+					"-l\"BIObjCHelpers\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"Lockbox\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"Mantle\"",
+					"-l\"PINCache\"",
+					"-l\"Reachability\"",
+					"-l\"SBJson\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.faizpaylabstestswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/faizpaylabstest/Header/faizpaylabstest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
